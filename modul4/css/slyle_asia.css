@@ -1,0 +1,268 @@
+
+@import "reset.css";
+
+body{
+  height: 100%;
+  background-image: url(../imges/fon.png);
+}
+
+.container{
+  position: relative;
+  min-height: 977px; /*100%*/
+  background-color: white;
+  width: 996px;
+  margin: 0 auto;
+  padding-top: 13px;
+  box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.85);
+}
+
+.logo{
+  width: 280px;
+  height: 162px;
+  margin-left: 30px;
+  margin-bottom: 12px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.travel_to_asia{
+  font-family: "Tahoma";
+  font-size: 12px;
+  color: rgb(18, 138, 167);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 60px;
+  top: 90px;
+  z-index: 78;
+  float: left;
+  display: inline-block;
+}
+
+.contacts{
+  float: right;
+  font-family: "Tahoma";
+  font-size: 12px;
+  color: rgb(18, 138, 167);
+  line-height: 1.2;
+  text-align: left;
+  /*margin-top: 15px;*/
+  margin-right: 30px;
+  height: 70px;
+}
+
+.contacts li{
+  padding: 3px;
+}
+
+.our_contacts{
+  font-weight: bold;
+}
+
+.contreis div{
+  display: inline-block;
+  width: 50px;
+  height: 45px;
+  /*clear: both;*/
+  padding-bottom: -5px;
+}
+
+.contreis img{
+  /*display: block;*/
+}
+.contreis{
+  clear: both;
+  float: right;
+  margin-right: 30px;
+  margin-top: -70px;
+}
+
+.contreis{
+ /*font-size: 10px;*/
+ /*color: rgb(18, 138, 167);*/
+ text-align: center;
+ /*overflow: hidden;*/
+ /*position: relative;*/
+}
+
+.contreis a{
+  display: block;
+  font-size: 10px;
+  color: rgb(18, 138, 167);
+  /*text-align: center;*/
+  text-decoration: underline;
+}
+
+.main_image{
+  margin-top: -12px;
+}
+
+.content {
+ margin-bottom: 30px;
+   /*margin-top: -4px;*/
+}
+
+.main_menu {
+   height: 30px;
+   background-color: #333333;
+   padding-left: 65px;
+   min-width: 470px;
+   border-bottom: 2px solid black;
+   margin-top: -4px;
+   box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.85);
+   position: relative;
+}
+.main_menu ul {
+   display: none;
+   position: absolute;
+   top: 100%;
+   background-color: #333333;
+}
+.main_menu li{
+   float: left;
+   position: relative;
+   height: 100%;
+}
+.main_menu li:hover ul{
+   display: block;
+   border-top: 2px solid black;
+}
+
+.main_menu ul li{
+   float: none;
+}
+
+.main_menu li a{
+   display: block;
+   padding: 6px;
+   width: 115px;
+   font-family: Tahoma;
+   font-size: 14px;
+   color: #fff;
+   text-decoration: none;
+   text-align: center;
+}
+ .main_menu a.main_menu2:after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 27px;
+    top: 12px;
+    width: 4px;
+    height: 6px;
+    background: url("../imges/triangle.png");
+    /*width: 8px;*/
+    /*height: 5px;*/
+    /*border-style: solid;*/
+    /*border-width: 5px 4px 0 4px;*/
+    /*border-color: #ffffff ;*/
+ }
+
+.main_menu a.main_menu1:after{
+  content:"";
+  display: block;
+  position: absolute;
+  right: 7px;
+  top: 12px;
+  width: 4px;
+  height: 6px;
+  background: url("../imges/triangle.png");
+}
+
+.main_menu a.main_menu3:after{
+  content:"";
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  width: 4px;
+  height: 6px;
+  background: url("../imges/triangle.png");
+}
+.center_page{
+  /*width: 345px;*/
+  /*float: left;*/
+  position: relative;
+}
+
+.left_block{
+    float: left;
+    background-color: #edeef0;
+    width: 20%;
+    min-height: 544px;
+    margin-top: 2px;
+    /*position: absolute;*/
+    text-align: center;
+}
+
+.center_block{
+  /*float: left;*/
+  background-color: #ffffff;
+  width: 60%;
+  margin: 0 auto;
+  /*position: absolute;*/
+}
+
+.right_block{
+  float: right;
+  width: 20%;
+  background-color: #edeef0;
+  /*position: absolute;*/
+  min-height: 544px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.center_page p{
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(66, 76, 67);
+  line-height: 1.714;
+  /*position: absolute;*/
+  /*left: 167px;*/
+  /*top: 536.913px;*/
+  /*z-index: 17;*/
+}
+
+.right_block .news{
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: rgb(66, 76, 67);
+  line-height: 1.2;
+  font-weight: 100;
+  /*position: absolute;*/
+  text-align: center;
+}
+
+.left_block .info{
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: rgb(66, 76, 67);
+  line-height: 1.2;
+  font-weight: 100;
+  /*position: absolute;*/
+  text-align: center;
+}
+
+.clear{
+  clear: both;
+}
+
+.footer{
+  position: absolute;
+  left: 414px;
+  bottom: -38px;
+  width: 230px;
+  height: 30px;
+}
+
+.footer p{
+  font-size: 12px;
+  font-family: "Tahoma";
+  /*color: #333333;*/
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.2;
+  /*text-align: left;*/
+}
+

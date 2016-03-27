@@ -1,0 +1,32 @@
+@import "reset.css";
+@import "wrapper.css";
+@import "header.css";
+@import "body.css";
+@import "data.css";
+
+@font-face {
+    font-family: "Helvetica Neue Cyrthin";
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*@font-face {*/
+    /*font-family: 'Helvetica Neue Cyrthin';*/
+    /*src: url('fonts/helveticaneuecyr-thin-webfont.eot');*/
+    /*src: url('fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),*/
+    /*url('fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),*/
+    /*url('fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),*/
+    /*url('fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');*/
+    /*font-weight: bold;*/
+    /*font-style: normal;*/
+
+}
+
+
+

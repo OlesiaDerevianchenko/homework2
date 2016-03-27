@@ -1,0 +1,190 @@
+ul {
+list-style: none; 
+margin: 0; 
+padding-left: 0; 
+}
+a {
+text-decoration: none;
+display: inline-block;
+}
+
+body {
+margin: 0;
+padding: 0;
+background-color: #fff;
+} 
+
+/*CONTAINER*/
+
+.container_page_store {
+ background: #fff;
+ margin: 0 auto;
+ padding: 130px 50px 40px 50px ;
+ width: 1065px;
+ box-shadow: 0 0 2px 1px rgba(213, 213, 213, 1);
+ min-height: 500px;
+} 
+
+.cover { 
+ margin: 0 15px;
+}  
+
+.container {
+  width: 1065px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*LOGOTYPE*/
+
+.logo {
+width: 150px;
+height: 40px;
+margin-left: 50px;
+margin-bottom: 40px;
+}
+
+/*TOP_MENU*/
+.menu {
+ width: 966px;
+ height: 40px;
+ background-color:#4d4c4c;
+ margin-left: 50px;
+ margin-right: 50px;
+ }
+
+.knopki {
+ display: block;
+ width: 966px;
+ padding-left: 0;
+ list-style: none;
+}
+
+.container_page_store .menu .knopki li {
+ float: left;
+ width: 100px;
+}
+
+.container_page_store .menu .knopki a {
+ text-decoration: none;
+ text-align: center;
+ display: block;
+ color: white;
+ padding: 1px 0;
+ font-size: 13,33px;
+ font-weight: normal;
+ font-family:open sans;
+}
+
+.container_page_store .menu .knopki a:hover {
+ border: 1px solid white;
+ background-color: #3a3a3a;
+ width: 100px;
+ height: 36px;
+}
+
+/*LEFT_MENU*/
+
+.left_menu {
+ width: 240px;
+ height: 233px;
+ float: left;
+ background-color:#fff;
+ margin-left: 50px;
+ margin-top: 40px;
+ /*border: 1px solid #c8c8c8;*/
+ /*border-bottom: none;*/
+}
+
+.container_page_store .left_menu .left_snap ul {
+ float: left;
+ width: 240px;
+}
+
+.left_snap a {
+ text-decoration: none;
+ text-align: left;
+ display: block;
+ color: #656363;
+ padding: 10px 22px;
+ font-size: 13,33px;
+ font-weight: normal;
+ font-family:open sans;
+ background-color: #fff;
+ border: 1px solid #c8c8c8;
+}
+
+ .left_snap a:hover {
+ background-color: #e1e1e1;
+ /*width: 240px;
+ height: 20px;
+ padding-left: 35;*/
+}
+
+/*BIKE*/
+
+.velo {
+width: 577px;
+height: 400px;
+margin-left: 336px;
+margin-bottom: 40px;
+margin-top: 40px;
+padding-left: 100px;
+border: 1px solid #c8c8c8;
+}
+
+/*TEXT*/
+
+.text {
+width: 628px;
+height: 140px;
+margin-left: 370px;
+}
+
+.loren_ipsum {
+ font-size: 13,33px;
+ font-family: open sans;
+}
+
+
+/*FOOTER*/
+
+.footer {
+ width: 966px;
+ height: 40px;
+ background-color:#e1e1e1;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: 100px;	
+}
+
+.bottom_menu {
+ display: block;
+ width: 966px;
+ padding-left: 0;
+ list-style: none;	
+}
+
+.container_page_store .footer .bottom_menu a {
+ text-decoration: none;
+ text-align: center;
+ display: block;
+ color: black;
+ padding: 1px 0;
+ font-size: 13,33px;
+ font-weight: normal;
+ font-family:open sans;
+}
+
+.container_page_store .footer .bottom_menu li {
+ float: left;
+ width: 100px;
+}
+
+.copyright {
+ float: left;
+ width: 866px;
+}
+.container_page_store .footer .bottom_menu a:hover {
+ text-decoration: underline;
+}
