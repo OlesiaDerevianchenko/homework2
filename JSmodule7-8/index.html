@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>7-8</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper__tabs">
+			<ul class="wrapper__menu">
+				<li><a class="wrapper__link wrapper__link--1 wrapper__link--active" href="#">Пункт 1</a></li>
+				<li><a class="wrapper__link wrapper__link--2" href="#">Пункт 2</a></li>
+				<li><a class="wrapper__link wrapper__link--3" href="#">Пункт 3</a></li>
+			</ul>
+			<div class="wrapper__text wrapper__text--1 wrapper__text--active">JavaScript изначально создавался для того, чтобы сделать web-странички «живыми». Программы на этом языке называются скриптами. В браузере они подключаются напрямую к HTML и, как только загружается страничка – тут же выполняются.</div>
+			<div class="wrapper__text wrapper__text--2">Современный JavaScript – это «безопасный» язык программирования общего назначения. Он не предоставляет низкоуровневых средств работы с памятью, процессором, так как изначально был ориентирован на браузеры, в которых это не требуется.
+
+			Что же касается остальных возможностей – они зависят от окружения, в котором запущен JavaScript. В браузере JavaScript умеет делать всё, что относится к манипуляции со страницей, взаимодействию с посетителем и, в какой-то мере, с сервером.</div>
+			<div class="wrapper__text wrapper__text--3">JavaScript – быстрый и мощный язык, но браузер накладывает на его исполнение некоторые ограничения…
+
+			Это сделано для безопасности пользователей, чтобы злоумышленник не мог с помощью JavaScript получить личные данные или как-то навредить компьютеру пользователя.
+
+			Этих ограничений нет там, где JavaScript используется вне браузера, например на сервере. Кроме того, современные браузеры предоставляют свои механизмы по установке плагинов и расширений, которые обладают расширенными возможностями, но требуют специальных действий по установке от пользователя.</div>
+		</div>
+		
+		<div class="break"></div>
+
+		<div class="tooltips">
+			<form action="">
+
+				<div class="tooltips__form">
+					<div class="tooltips__field tooltips__field--1">
+						<label for="first_name">Ваше имя : </label>
+						<input type="text" name="first_name" id="first_name">
+					</div>
+				
+					<div class="tooltips__field tooltips__field--2">
+						<label for="last_name">Фамилия : </label>
+						<input type="text" name="last_name" id="last_name">
+					</div>
+					
+					<div class="tooltips__field tooltips__field--3">
+						<label for="address">Адресс : </label>
+						<input type="text" name="address" id="address">
+					</div>
+				</div>
+
+				<div class="tooltips__tooltips">
+					<div class="tooltips__tooltip tooltips__tooltip--1">Введите Ваше имя</div>
+					<div class="tooltips__tooltip tooltips__tooltip--2">Введите Фамилию</div>
+					<div class="tooltips__tooltip tooltips__tooltip--3">Введите Ваш адрес</div>
+				</div>
+			</form>
+
+			<div class="tooltips__button">
+				<a class="tooltips__link" href="#">Отправить</a>
+			</div>
+			
+		</div>
+
+	</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
+

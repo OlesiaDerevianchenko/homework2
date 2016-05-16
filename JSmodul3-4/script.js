@@ -1,7 +1,7 @@
 
 var generate = {
-    blockQuontity: 3,  /* Количество блоков ВОПРОС № */
-    questionQuontity: 3,   /* Количество вариантов ответа */
+    blockQuontity: 5,  /* Количество блоков ВОПРОС № */
+    questionQuontity: 5,   /* Количество вариантов ответа */
     j: 1,
     i: 1,
     

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  font-size: 18px;
+}
+
+.container {
+  width: 970px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.cover { 
+ margin: 0 15px; 
+}      
+
+.container_page_about_me {
+ background: #fff;
+ margin: 5px auto 50px;
+ padding: 30px 0 50px;
+ width: 510px;
+ min-height: 300px;
+ box-shadow: 0 0 2px 1px rgba(213, 213, 213, 1);
+}  
+
+.info, .content, .contact {
+ border-bottom: 1px solid #000;
+}  
+ .page-about p {
+ margin-left: 10px;
+}
+
+.page-about .fio h2 {
+ font-size: 22px;
+ text-align: center;
+}
+
+.foto {
+text-align: center;
+} 
+
+.page-about .fio .foto {
+ margin: 0 auto;
+ width: 140px;
+}
+
+.page-about .content li {
+ line-height: 24px;
+}
+.tel, .contact, .contact {
+margin-bottom: 0;
+}
+
+.number, .facebook, .motto {
+ margin-top: 10px; 
+}
+
+.form {
+ margin: 0 auto;
+ font-size: 10px;
+}
